@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #home{
+            width: 860px;
+            height: 660px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .caja{
+            width: 280px;
+            height: 300px;
+            margin: 10px;
+            padding: 20px;
+            text-align: justify;
+            color: rgb(171, 172, 175);
+            border-radius: 25px;
+            border: 1px solid rgb(226, 235, 250);
+            box-sizing: border-box;
+            font-family: 'Pragati Narrow', sans-serif;
+            font-size: 14px;
+        }
+
+        #cajitas{
+            width: 860px;
+            height: 320px;
+            display: flex;
+        }
+        .lateral{
+            width: 840px;
+            height: 250px;
+            margin: 10px;
+            border-radius: 25px;
+            border: 1px solid rgb(243, 238, 238);
+            box-sizing: border-box;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        .image1{
+            text-align: center;
+        }
+        .textito{
+            width: 550px;
+            height: 200px;
+            padding-top: 50px;
+            box-sizing: border-box;
+            color: rgb(171, 172, 175);
+            font-family: 'Pragati Narrow', sans-serif;
+            font-size: 14px;
+        }
+        .modelo{
+            border-radius: 50%;
+            border: 1px solid rgb(211, 211, 211);
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+
+        }
+        .modelos{
+            border-radius: 50%;
+            border: 1px solid rgb(211, 211, 211);
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+        article{
+            width: 240px;
+            font-size: x-small;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="home"> 
+        <section id="cajitas">
+            <div class="caja">
+                <header class="image1">
+                    <img src="imagenes/chiron.jpg" alt="" class="modelos">
+                </header>
+                <article class="texto">
+                    Cuenta con un impresionante motor W16 de 8 litros en posición central, con 1500 CV, que le permite hacer el 0-100 km/h en menos de 2,5 segundos. El precio del Bugatti Chiron es de 2,4 millones de euros y su principal competidor es el Koenigsegg Regera.
+                </article>
+            </div>
+            <div class="caja">
+                <header class="image1">
+                    <img src="imagenes/centodieci.jpg" alt="" class="modelos">
+                </header>
+                <article>
+                    El Bugatti Centodieci es un guiño al pasado, no un modelo neoretro. A nivel mecánico, estamos hablando del motor W16 de ocho litros potenciado hasta los 1.600 CV a 7.000 rpm. Bugatti anuncia una aceleración de 0 a 100 km/h en 2,4 segundos, un 0 a 200 km/h en 6,1 segundos y un 0 a 300 km/h en 13,1 segundos.
+                </article>
+            </div>
+            <div class="caja">
+                <header class="image1">
+                    <img src="imagenes/sport.jpg" alt="" class="modelos">
+                </header>
+                <article>
+                    Las prestaciones del Bugatti Veyron hablan por sí solas con una aceleración de 0 a 100 Km/h en 2,5 segundos y una velocidad máxima de 408 Km/h en los Veyron con motor de 1.001 CV y 431.072 km/h en la versión Super Sport de 1.200 CV que fue empleada para batir el récord de velocidad máxima.
+                </article>
+            </div>
+        </section>
+        <section class="lateral">
+            <div class="image1">
+                <img src="imagenes/veyron.jpg" alt="" class="modelo">
+            </div>
+            <div class="textito">
+                <h3 style="padding-bottom: 10px;font-size: 32px;">Veyron</h3>
+
+                <p style="padding-top: 10px;text-align: justify;">Las prestaciones del Bugatti Veyron hablan por sí solas con una aceleración de 0 a 100 Km/h en 2,5 segundos y una velocidad máxima de 408 Km/h en los Veyron con motor de 1.001 CV y 431.072 km/h en la versión Super Sport de 1.200 CV que fue empleada para batir el récord de velocidad máxima.</p>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
